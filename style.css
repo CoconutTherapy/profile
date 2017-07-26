@@ -1,0 +1,167 @@
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+.nav-bar {
+  text-align: left;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 150px;
+  background-color: rgb(81, 77, 89);
+  color: white;
+}
+
+.nav-bar a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link {
+  padding: 30px 20px;
+  font-weight: 600;
+
+}
+
+.nav-link:hover {
+  padding: 30px 25px;
+}
+
+.nav-link a:hover {
+  text-indent: 10px;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: rgba(255, 255, 255, 0.2) 1px 0px 1px;
+}
+
+.nav-link a:active {
+  color: #F25F5C;
+  text-shadow: none;
+}
+
+ h2 {
+   font-family: Helvetica, sans-serif;
+   font-size: 30px;
+   font-weight: 600;
+   opacity: 0.9;
+ }
+
+ h3 {
+   font-family: "Ubuntu", sans-serif;
+   font-size: 20px;
+ }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f5f2ec;
+  color: #50514F;
+}
+
+.container {
+  background-color: #EAE1DF;
+  margin: auto;
+  width: 800px;
+  height: 100%;
+  box-shadow: 1px 1px 1px rgba(29, 29, 29, 0.3)
+}
+
+.inline-block {
+  vertical-align: middle;
+  display: inline-block;
+  width: 45%;
+  padding: 10px;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  margin: 0px 10px;
+  text-align: center;
+}
+
+.band-large {
+  text-align: center;
+  padding: 40px;
+}
+
+.band-medium {
+  text-align: center;
+  padding: 10px;
+}
+
+.title-mid-block {
+  padding: 0px 20px;
+  margin: 10px 50px;
+  text-align: center;
+}
+
+.pic-rounded {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 2%;
+}
+
+.odd-block {
+  padding: 10px;
+  background-color: rgb(81, 77, 89);
+}
+
+.odd-block h2 {
+  font-family: "Quicksand";
+  color: #F25F5C;
+}
+
+.pic-md {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  border: 1px solid rgba(29, 29, 29, 0.2);
+  box-shadow: 1px 1px 10px rgba(29, 29, 29, 0.3);
+}
+
+.third-div {
+  display: inline-block;
+  text-align: left;
+  padding: 0px 30px 0px 0px;
+}
+
+.block-card {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 10px;
+  margin: 30px 30px;
+  box-shadow: 2px 2px 5px rgba(29, 29, 29, 0.3);
+}
+
+.block-card p {
+  text-shadow: rgba(255, 255, 255, 0.7) 1px 0px 1px;
+}
+
+.bg-sci{
+  background-image: url("bgsci.png");
+}
+
+.bg-drama {
+  background-image: url("bgdrama.png");
+}
+
+.bg-comedy {
+  background-image: url("bgcomedy.png");
+}
+
+.fa {
+  color: #F25F5C;
+  text-shadow: 1px 1px 3px;
+}
+
+.fa:hover {
+  color: #f46a2f;
+  text-shadow: 1px 1px 6px;
+}
